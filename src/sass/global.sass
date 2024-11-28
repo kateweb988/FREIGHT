@@ -1,0 +1,167 @@
+body
+   font-family: "Ubuntu", sans-serif
+   background: #0A173B
+   font-weight: 400
+   font-size: 14px
+   line-height: 110%
+   color: rgb(239, 240, 242)
+a
+   text-decoration: none
+   box-sizing: border-box
+   transition: 0.5s !important
+   &:hover 
+      color: $or
+.container
+   padding: 0 15px
+   max-width: 1310px
+   margin: 0 auto
+   @media ( max-width: 1199px )
+      max-width: 960px
+   @media (max-width: 991px)
+      max-width: 720px
+   @media (max-width: 767px)
+      max-width: 540px
+.d-flex, .q
+   display: flex
+.body-wrap
+   overflow: hidden
+   position: relative
+   display: flex
+   flex-direction: column
+   min-height: 100vh
+footer
+   margin-top: auto
+h1
+   color: rgb(239, 240, 242)
+   font-size: 38px
+   font-weight: 400
+   line-height: 120%
+   letter-spacing: -0.02rem
+   text-transform: uppercase
+   margin: 0
+h2 
+   margin: 0
+   color: rgb(239, 240, 242)
+   font-size: 38px
+   font-weight: 400
+   line-height: 120%
+   letter-spacing: -0.02rem
+ul 
+   margin: 0
+   padding: 0
+   list-style-type: none
+p
+   margin: 0
+.svg, rect, line, circle
+   transition: 0.5s ease
+a
+   transition: color 0.5s ease
+   box-sizing: border-box
+li
+   a
+      transition: color 0.5s ease
+button
+   cursor: pointer
+   box-sizing: border-box
+textarea
+   transition: border 0.5s
+   box-sizing: border-box
+   &:focus
+      transition: border 0.5s
+      outline: none
+      border: 1px solid $or
+input
+   transition: 0.5s
+   box-sizing: border-box
+   border: 1px solid #fff
+   &:disabled
+      pointer-events: none
+      opacity: 0.5
+   &:focus 
+      border: 1px solid $or 
+      transition: 0.5s
+   &:focus-visible
+      outline: initial
+path
+   transition: fill 0.5s, stroke 0.5s
+div 
+   box-sizing: border-box
+.icon 
+   transition: fill 0.5s, stroke 0.5s
+html * 
+   scrollbar-width: thin
+   scrollbar-color: blue $or
+.popup__bg, .van__row, .van__box, .china__row
+   scrollbar-width: thin
+   scrollbar-color: transparent transparent
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar 
+   height: 7px
+   width: 7px
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track 
+   background: #E7E7E7
+   border-radius: 3px
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb 
+   background-color: $or
+   border-radius: 6px
+.btn 
+   display: flex
+   align-items: center
+   justify-content: center
+   transition: 0.5s
+   box-sizing: border-box
+   width: 235px
+   height: 55px
+   border-radius: 10px
+   backdrop-filter: blur(10px)
+   border: 2px solid $or
+   position: relative
+   overflow: hidden
+   span
+      color: rgb(239, 240, 242)
+      font-size: 14px
+      font-weight: 400
+      line-height: 110%
+      position: relative
+      z-index: 2
+      transition: 0.5s
+   &:before 
+      content: ""
+      display: block
+      position: absolute
+      top: 0
+      right: 0
+      width: 100%
+      transition: 0.5s
+      height: 100%
+      z-index: -2
+      opacity: 1
+      background: radial-gradient(3634.50% 96.17% at 27% 42%,rgb(228, 92, 41),rgb(209, 114, 36) 100%)
+   // &:after
+   //    content: ""
+   //    display: block
+   //    position: absolute
+   //    transition: 0.5s
+   //    top: 0
+   //    right: 0
+   //    width: 0%
+   //    height: 100%
+   //    opacity: 0
+   //    z-index: -1
+   //    background: radial-gradient(3634.50% 96.17% at 27% 42%,rgb(209, 114, 36), rgb(228, 92, 41)  100%)
+   &:hover 
+      &:before 
+         opacity: 0
+      span
+         color: $or
+      .svg 
+         position: relative
+         z-index: 2
+         rect 
+            fill: $or
+         path 
+            fill: rgb(5, 13, 36)
+   .svg 
+      margin-left: 6px

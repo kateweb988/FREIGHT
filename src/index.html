@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /> -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+
+	<title>ASIA FREIGHT</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<!-- Favicon -->
+	<!-- <link rel="icon" href="img/fav.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/fav.png" type="image/x-icon"> -->
+	<!-- OG -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+		rel="stylesheet">
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<h2 style="text-align: center; margin: 40px auto; color: white">
+		Pages
+	</h2>
+	<ul class="mm" style="display: flex; max-width: 800px; margin: 0 auto 50px; flex-wrap: wrap;">
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="main.html"
+				style="font-weight: bold; color: white; font-size: 25px; display: block; text-align: center;">Главная</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="china.html"
+				style="font-weight: bold; color: white; font-size: 25px; display: block; text-align: center;">Китай</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="korea.html"
+				style="font-weight: bold; color: white; font-size: 25px; display: block; text-align: center;">Корея</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="error.html"
+				style="font-weight: bold; color: white; font-size: 25px; display: block; text-align: center;">404</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="import.html"
+				style="font-weight: bold; color: white; font-size: 25px; display: block; text-align: center;">Оформление</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="door.html"
+				style="font-weight: bold; color: white; font-size: 25px; display: block; text-align: center;">От двери</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="transport.html"
+				style="font-weight: bold; color: white; font-size: 25px; display: block; text-align: center;">Перевозки</a>
+		</li>
+		<li style="width: 25%; margin: 0px auto 0;">
+			<a href="policy.html"
+				style="font-weight: bold; color: white; font-size: 25px; display: block; text-align: center;">Политика</a>
+		</li>
+	</ul>
+	<div class="d-flex"
+		style="justify-content: center; margin-top: 80px; max-width: 1000px; margin: 0 auto; flex-wrap: wrap;">
+		<a href="#" class="btn btn_1 a1" style="margin: 20px;">
+			<span>
+				popup
+			</span>
+			<img src="img/btn.svg" alt="" class="svg">
+		</a>
+		<a href="#" class="btn btn_1 a2" style="margin: 20px;">
+			<span>
+				thank
+			</span>
+			<img src="img/btn.svg" alt="" class="svg">
+		</a>
+	</div>
+	<div class="popup__bg" id="popup">
+		<div class="popup show">
+			<img src="img/close.svg" alt="" class="close-popup">
+			<img src="img/popup.png" alt="" class="popup__pic">
+			<p class="popup__title">
+				Заявка на расчет доставки груза
+			</p>
+			<form action="#" class="form js-form" id="popupResult" method="post">
+				<input type="text" placeholder="Имя" name="name" class="form__field" required="">
+				<input type="email" placeholder="Почта" name="email" class="form__field" required="">
+				<input type="tel" placeholder="Телефон" name="tel" class="tel form__field" required="">
+				<textarea name="text" placeholder="Информация о грузе"></textarea>
+				<button class="btn">
+					Отправить
+				</button>
+			</form>
+		</div>
+	</div>
+	<div class="popup__bg2" id="thank">
+		<div class="popup2">
+			<img src="img/close2.svg" alt="" class="close-popup2">
+			<h2>
+				Ваша заявка успешно отправлена!
+			</h2>
+			<p>
+				Мы свяжемся с вами в течении <br class="mob"> 30 минут <br> и рассчитаем <br class="mob"> стоимость и сроки
+				перевозки
+			</p>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+	<script src="js/all.js"></script>
+</body>
+
+</html>
