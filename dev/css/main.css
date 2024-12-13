@@ -3086,7 +3086,7 @@ ul.info li {
   .china__text p:first-child {
     max-width: 214px;
     padding-right: 10px;
-    margin-bottom: 128px; }
+    margin-bottom: 137px; }
   .china__text p:nth-child(2) {
     max-width: 209px; }
     .china__text p:nth-child(2) .mar {
@@ -3096,7 +3096,7 @@ ul.info li {
       margin-left: auto; }
   .china__text p:nth-child(3) {
     max-width: 231px;
-    margin-top: 98px; }
+    margin-top: 106px; }
   .china__sub {
     margin-bottom: 20px;
     font-size: 16px; }
@@ -3247,7 +3247,10 @@ ul.info li {
     padding-top: 15px; }
   .popup .form button {
     height: 50px;
-    font-size: 14px; } }
+    font-size: 14px; }
+  .china__text p:nth-child(2) .mar {
+    left: -28px;
+    position: relative; } }
 
 @media screen and (max-width: 395px) {
   .ser__name {
@@ -3257,3 +3260,39 @@ ul.info li {
     width: 122px; }
   #thank .popup2 {
     padding-top: 50px; } }
+
+@media screen and (max-width: 390px) {
+  .china__wrap {
+    left: -7px;
+    max-width: 345px; }
+  .china__text p:first-child {
+    max-width: 207px;
+    padding-right: 0;
+    margin-bottom: 148px;
+    position: relative;
+    top: 5px; }
+  .china__text p:nth-child(3) {
+    max-width: 219px;
+    margin-top: 119px; }
+  .china__text p:nth-child(2) .mar {
+    width: 100%;
+    position: relative;
+    left: 10px; }
+  .china__text p {
+    font-size: 14px; }
+  .import .china__text p:first-child {
+    max-width: 207px;
+    top: -13px;
+    margin-bottom: 276px; }
+  .import .china__text p:nth-child(2) span {
+    left: -8px;
+    position: relative; }
+  .trans .china__text p:first-child {
+    max-width: 205px;
+    margin-bottom: 329px; }
+  .trans .china__text p:nth-child(2) {
+    max-width: 216px;
+    margin-left: 11px; }
+  .trans .china__text p:nth-child(2) span {
+    position: relative;
+    left: 10px; } }
