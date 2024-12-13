@@ -3293,6 +3293,9 @@ ul.info li {
   .trans .china__text p:nth-child(2) {
     max-width: 216px;
     margin-left: 11px; }
+  .import .china__text p:nth-child(2) {
+      right: 15px;
+    }
   .trans .china__text p:nth-child(2) span {
     position: relative;
     left: 10px; } }
